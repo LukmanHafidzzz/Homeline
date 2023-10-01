@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@400;600&display=swap');
+/* link font */
+
+body {
+    background-color: #F7F7F7;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-top: 10%;
+}
+
+.failed {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: larger;
+    margin-top: 2%;
+}
+
+
+.loginForm {
+    margin-top: 2%;
+    width: 250px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #20C997;
+    color: #20C997;
+    border-radius: 100px;
+    justify-content: center;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.loginForm:hover {
+    background-color: #20C997;
+    color: white;
+}
+
+.logButton {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}

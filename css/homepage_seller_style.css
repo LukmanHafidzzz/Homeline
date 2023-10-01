@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #F7F7F7;
+    /* background-color: #20C997; */
+}
+
+/* Page 1 */
+
+/* navbar */
+.img1 {
+    margin-left: 70px;
+}
+
+.connav {
+    margin-right: 70px;
+}
+
+.navbar1 {
+    margin-left: 70px;
+    font-weight: 700;
+    font-size: 30px;
+    color: black;
+}
+
+.navbar2 {
+    font-weight: 700;
+    color: #20C997;
+    font-size: 40px;
+}
+
+#navbar3 {
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+/* navbar */
+
+/* Content 1 */
+.container-1 {
+    margin-top: 50px;
+}
+
+.text1 {
+    margin-top: 80px;
+    margin-left: 50px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.suit {
+    color: #20C997;
+}
+
+.text2 {
+    margin-left: 50px;
+    margin-top: 48px;
+    font-size: 17px;
+}
+
+.img2 {
+    /* background-image: url("img/pexels-thgusstavo-santana-2102587.jpg");
+    background-size: 480px; */
+    width: 400px;
+    height: 497.5px;
+    /* width: 480px; */
+    /* height: 597px; */
+    border-radius: 150px 40px 40px 40px;
+    margin-left: 40px;
+}
+
+.round1 {
+    /* border: solid black 2px; */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.roundImage {
+    /* border-bottom: solid black 2px; */
+    border-radius: 10px 10px 0px 0px;
+}
+/* Content 1 */
+
+/* Page 1 */
+
+/* page 2 */
+
+.round2 {
+    background-color: #20C997;
+    border-radius: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+/* page 2 */
+
+/* footer */
+
+.container-5 {
+    margin-top: 10px;
+}
+
+.text8 {
+    font-weight: 700;
+    font-size: 20px;
+    color: black;
+}
+
+.text9 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #20C997;
+}
+
+.text10 {
+    margin-top: 15px;
+    font-size: 13px;
+    color: black;
+}
+.text11 {
+    font-size: 20px;
+    color: black;
+}
+
+.text12 {
+    text-decoration: none;
+    color: black;
+}
+
+.text12:hover {
+    color: #20C997;
+}
+
+.container-6 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.text13 {
+    text-align: center;
+    font-size: 11px;
+}
+/* footer */
+
+/* search */
+.searchFormText {
+    /* box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25); */
+    border-radius: 10px;
+    /* margin: auto; */
+    /* margin-bottom: 25px; */
+    /* font-family: 'Poppins', sans-serif; */
+    /* font-weight: 400; */
+    /* font-size: 15px; */
+    color: black;
+}
+
+.searchFormText:focus {
+    background-color: white;
+    outline: none !important;
+    border-color: #20C997;
+    border: solid #20C997 1px;
+    box-shadow: 0 0 2px #20C997;
+    color: black;
+}
+
+.searchForm {
+    width: 50px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #20C997;
+    color: #20C997;
+    border-radius: 10px;
+    justify-content: center;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.searchForm:hover {
+    background-color: #20C997;
+    color: white;
+}
+/* search */
+
+.statusForm {
+    width: 90px;
+    height: 30px;
+    font-size: small;
+}
+
+.textAlamat {
+    font-size: 12px;
+}
+
+.textHarga {
+    font-weight: 500;
+}
+
+.textAdd {
+    font-size: large;
+    justify-items: center;
+}
+
+.detailForm {
+    width: 100px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #20C997;
+    color: #20C997;
+    border-radius: 10px;
+    text-align: left;
+    justify-content: center;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.detailForm:hover {
+    background-color: #20C997;
+    color: white;
+}
+
+.addForm {
+    width: 60px;
+    height: 60px;
+    background: #20C997;
+    border: 1px solid #20C997;
+    color: #FFFFFF;
+    border-radius: 60px;
+    /* text-align: left; */
+    justify-content: center;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.addForm:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.backForm {
+    width: 60px;
+    height: 60px;
+    background: #20C997;
+    border: 1px solid #20C997;
+    color: #FFFFFF;
+    border-radius: 60px;
+    /* text-align: left; */
+    justify-content: center;
+    transition: 0.3s;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.backForm:hover {
+    background-color: aqua;
+    color: white;
+}
+
+.noneText {
+    text-align: center;
+    color: #808080;
+    font-size: x-large;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.siniText {
+    text-decoration: none;
+    color: #20C997;
+    transition: 0.3s;
+}
+
+.siniText:hover {
+    color: aqua;
+}
+
+.containerAdd {
+    text-align: end;
+}
